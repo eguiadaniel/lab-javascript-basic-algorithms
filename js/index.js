@@ -35,4 +35,10 @@ if ( hacker1.length > hacker2.length){
 3.3 Depending on the lexicographic order of the strings, print:
 - The driver's name goes first.
 - Yo, the navigator goes first definitely.
-- What?! You both have the same name?/*
+- What?! You both have the same name?*/
+
+const hacker1UP = hacker1.toUpperCase();
+const hacker1SPLIT = hacker1UP.split("").join(" ");
+console.log(hacker1SPLIT)
+
+
